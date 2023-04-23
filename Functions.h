@@ -5,6 +5,9 @@
 #ifndef UNTITLED6_FUNCTIONS_H
 #define UNTITLED6_FUNCTIONS_H
 
+unsigned int global_id = 0;
+unsigned int get_next_id();
+
 typedef struct {
     int pos_x;
     int pos_y;

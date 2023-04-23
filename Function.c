@@ -4,6 +4,8 @@
 #include <stdio.h>
 #include <malloc.h>
 
+unsigned int global_id = 0;
+unsigned int get_next_id();
 
 typedef struct {
     int pos_x;

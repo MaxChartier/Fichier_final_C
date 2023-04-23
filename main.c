@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include "Functions.h"
+unsigned int global_ID = 0;
 
 int main() {
     char choice;
